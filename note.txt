@@ -1,0 +1,2 @@
+We try this again, cannot solve without using a cheat sheet.
+https://leetcode.com/problems/longest-common-prefix/submissions/1477955058/

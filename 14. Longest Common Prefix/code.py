@@ -3,30 +3,30 @@ class Solution:
 
         prefix = ""
 
-        position = 1
+        position = 0
 
         first_chars = []
 
+        shortest = min(strs, key=len)
+
+        
         for i in range(len(strs)):
-            first_chars.append(strs[i][position])
+            # Extra string counter for second character and so on
+            for j in range(len(strs[i])):
 
-        print(first_chars)
-
-        # shortest = min(strs, key=len)
-
-        # for i in range(len(shortest)):
-        #     for j in range(len(strs)):
-        #         print(strs[j][i])
-
-
-    
-                
+                print(strs[i][j], strs[i+1][j])
+                # If index is out of range, return prefix stop
 
                 
+
         print(prefix)
         return prefix
 
-            
+
+    
+
+
+
             
             
 Solution().longestCommonPrefix(["flower","flow","flight"])
